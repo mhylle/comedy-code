@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comedy Code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-code"></i> Comedy Code <i class="fas fa-laugh-beam"></i></h1>
+            <p class="subtitle">A curated collection of tech humor, carefully crafted for developers who appreciate both elegant code and terrible puns.</p>
+        </header>
+
+        <div class="grid" id="jokeGrid"></div>
+    </div>
+
+    <button class="refresh-button" id="refreshButton">
+        <i class="fas fa-sync-alt"></i>
+    </button>
+
+    <div class="copy-success" id="copySuccess">
+        Joke copied to clipboard! 📋
+    </div>
+
+    <!-- Load jokes.js first since app.js depends on it -->
+    <script src="jokes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
