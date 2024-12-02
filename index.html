@@ -1,1 +1,32 @@
-PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+CiAgICA8dGl0bGU+Q29tZWR5IENvZGU8L3RpdGxlPgogICAgPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSJodHRwczovL2NkbmpzLmNsb3VkZmxhcmUuY29tL2FqYXgvbGlicy9mb250LWF3ZXNvbWUvNi41LjEvY3NzL2FsbC5taW4uY3NzIj4KICAgIDxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0ic3R5bGVzLmNzcyI+CjwvaGVhZD4KPGJvZHk+CiAgICA8ZGl2IGNsYXNzPSJjb250YWluZXIiPgogICAgICAgIDxoZWFkZXI+CiAgICAgICAgICAgIDxoMT48aSBjbGFzcz0iZmFzIGZhLWNvZGUiPjwvaT4gQ29tZWR5IENvZGUgPGkgY2xhc3M9ImZhcyBmYS1sYXVnaC1iZWFtIj48L2k+PC9oMT4KICAgICAgICAgICAgPHAgY2xhc3M9InN1YnRpdGxlIj5BIGN1cmF0ZWQgY29sbGVjdGlvbiBvZiB0ZWNoIGh1bW9yLCBjYXJlZnVsbHkgY3JhZnRlZCBmb3IgZGV2ZWxvcGVycyB3aG8gYXBwcmVjaWF0ZSBib3RoIGVsZWdhbnQgY29kZSBhbmQgdGVycmlibGUgcHVucy48L3A+CiAgICAgICAgPC9oZWFkZXI+CgogICAgICAgIDxkaXYgY2xhc3M9ImdyaWQiIGlkPSJqb2tlR3JpZCI+PC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8YnV0dG9uIGNsYXNzPSJyZWZyZXNoLWJ1dHRvbiIgaWQ9InJlZnJlc2hCdXR0b24iPgogICAgICAgIDxpIGNsYXNzPSJmYXMgZmEtc3luYy1hbHQiPjwvaT4KICAgIDwvYnV0dG9uPgoKICAgIDxkaXYgY2xhc3M9ImNvcHktc3VjY2VzcyIgaWQ9ImNvcHlTdWNjZXNzIj4KICAgICAgICBKb2tlIGNvcGllZCB0byBjbGlwYm9hcmQhIPCfk4kKICAgIDwvZGl2PgoKICAgIDwhLS0gTG9hZCBqb2tlcy5qcyBmaXJzdCBzaW5jZSBhcHAuanMgZGVwZW5kcyBvbiBpdCAtLT4KICAgIDxzY3JpcHQgc3JjPSJqb2tlcy5qcyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iYXBwLmpzIj48L3NjcmlwdD4KPC9ib2R5Pgo8L2h0bWw+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comedy Code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-code"></i> Comedy Code <i class="fas fa-laugh-beam"></i></h1>
+            <p class="subtitle">A curated collection of tech humor, carefully crafted for developers who appreciate both elegant code and terrible puns.</p>
+        </header>
+
+        <div class="grid" id="jokeGrid"></div>
+    </div>
+
+    <button class="refresh-button" id="refreshButton">
+        <i class="fas fa-sync-alt"></i>
+    </button>
+
+    <div class="copy-success" id="copySuccess">
+        Joke copied to clipboard! 📋
+    </div>
+
+    <!-- Load jokes.js first since app.js depends on it -->
+    <script src="jokes.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
